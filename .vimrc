@@ -10,7 +10,6 @@ Plugin 'gmarik/Vundle.vim'
 "customized plugins, from http://vim-scripts.org/vim/scripts.html
 
 "utility
-Plugin 'Syntastic'
 Plugin 'bufexplorer.zip'
 Plugin 'taglist.vim'
 Plugin 'a.vim'
@@ -53,6 +52,11 @@ set expandtab
 set shiftwidth=4
 set ts=4
 set autoread
+set wildignore+=*.png,*.html,*.jd,*.mp3,*.mp4,*.3gp
+
+"command-t config
+let g:CommandTMaxFiles=20000
+let g:CommandTMaxHeight=15
 
 "indentline config
 let g:indentLine_color_term=30
