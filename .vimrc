@@ -48,6 +48,7 @@ set nu
 set ai
 set si
 set ci
+set hls
 set expandtab
 set shiftwidth=4
 set ts=4
