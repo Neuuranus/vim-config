@@ -43,12 +43,11 @@ syntax enable
 syntax on
 filetype plugin indent on
 colorscheme jellybeans
-set viminfo='1000,<100
+set viminfo='1000,<5000
 set nu
 set ai
 set si
 set ci
-set hls
 set expandtab
 set shiftwidth=4
 set ts=4
