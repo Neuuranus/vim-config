@@ -10,7 +10,6 @@ Plugin 'gmarik/Vundle.vim'
 "customized plugins, from http://vim-scripts.org/vim/scripts.html
 
 "utility
-Plugin 'bufexplorer.zip'
 Plugin 'taglist.vim'
 Plugin 'a.vim'
 Plugin 'c.vim'
@@ -18,19 +17,20 @@ Plugin 'SuperTab'
 Plugin 'python.vim'
 Plugin 'grep.vim'
 Plugin 'Tagbar'
-Plugin 'Command-T'
 Plugin 'indentLine.vim'
 Plugin 'Vimball'
+Plugin 'genutils'
+Plugin 'lookupfile'
 
 "color scheme
 Plugin 'darkburn'
-Plugin 'Briofita'
-Plugin 'Lucius'
 Plugin 'jellybeans.vim'
 
 "customized plugins, from github
+Plugin 'https://github.com/wincent/command-t'
 Plugin 'https://github.com/Lokaltog/vim-powerline'
-Plugin 'https://github.com/vim-scripts/winmanager--Fox.git'
+Plugin 'https://github.com/Neuuranus/winmanager--Fox'
+Plugin 'https://github.com/Neuuranus/bufexplorer.zip'
 Plugin 'https://github.com/vim-scripts/Mark--Karkat.git'
 
 "end customized
