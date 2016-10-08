@@ -32,11 +32,16 @@ Plugin 'https://github.com/Lokaltog/vim-powerline'
 Plugin 'https://github.com/Neuuranus/winmanager--Fox'
 Plugin 'https://github.com/Neuuranus/bufexplorer.zip'
 Plugin 'https://github.com/vim-scripts/Mark--Karkat.git'
+Plugin 'https://github.com/tpope/vim-fugitive'
+Plugin 'https://github.com/tpope/vim-pathogen'
 
 "end customized
 call vundle#end()
 
 filetype plugin indent on
+
+"pathogen
+execute pathogen#infect()
 
 "general config
 syntax enable
@@ -86,3 +91,9 @@ set laststatus=2
 set t_Co=256
 let g:Powerline_symbols='unicode'
 set encoding=utf8
+
+"fugitive config
+set statusline+=%{fugitive#statusline()}
+
+"lookupfile config
+let g:LookupFile_TagExpr = string('./filenametags')
