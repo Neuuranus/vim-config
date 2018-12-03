@@ -1,0 +1,4 @@
+1.sudo apt-get install vim vim-tiny
+2.Download ctag from github and make installl
+3.sudo apt-get install cscope
+4.Download and install vundle from github, install plugin
