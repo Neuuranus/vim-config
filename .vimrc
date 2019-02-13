@@ -57,11 +57,12 @@ set expandtab
 set shiftwidth=4
 set ts=4
 set autoread
-set wildignore+=*.png,*.html,*.jd,*.mp3,*.mp4,*.3gp
+set wildignore+=*.png,*.html,*.jd,*.mp3,*.mp4,*.3gp,*.jar,*.so,*.classes,*.jack
 
 "command-t config
-let g:CommandTMaxFiles=20000
-let g:CommandTMaxHeight=15
+let g:CommandTMaxFiles=160000
+let g:CommandTMaxHeight=10
+let g:CommandTSuppressMaxFilesWarning=1
 
 "indentline config
 let g:indentLine_color_term=30
@@ -90,7 +91,7 @@ nmap wm :WMToggle<cr>
 set laststatus=2
 set t_Co=256
 let g:Powerline_symbols='unicode'
-set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
+"set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 set encoding=utf8
 
 "fugitive config
@@ -98,3 +99,4 @@ set statusline+=%{fugitive#statusline()}
 
 "lookupfile config
 let g:LookupFile_TagExpr = string('./filenametags')
+let g:LookupFile_AllowNewFiles = 0
