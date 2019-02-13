@@ -2,5 +2,3 @@
 2.Download ctag from github and make installl
 3.sudo apt-get install cscope
 4.Download and install vundle from github, install plugin
-5.remove "1" before sb in autoload/lookupfile.vim(only on Ubuntu 18.04)
-6.copy lookupfile, genutils, fugitive to .vim/autoload dir
